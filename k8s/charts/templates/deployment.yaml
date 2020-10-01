@@ -18,6 +18,10 @@ spec:
         - image: {{ .Values.image.name }}:{{ .Values.image.tag }}
           name: {{ .Chart.Name }}
           imagePullPolicy: Always
-          envFrom:
-            - configMapRef:
-                name: poc-configmap-secrets
+          volumeMounts:
+            - name: {{ .Values.volume.name }}
+              mountPath: /etc/config
+      volumes:
+       - name: {{ .Values.volume.name }}
+         configMap:
+           name: poc-configmap-secrets

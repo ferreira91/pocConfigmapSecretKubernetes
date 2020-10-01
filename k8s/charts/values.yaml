@@ -1,4 +1,5 @@
 image:
-  name: cainafs7/poc-configmap-secrets
-  #name: poc-configmap-secrets
+  name: localhost:5000/poc-configmap-secrets
   tag: v1.0.0
+volume:
+  name: poc-configmap-secrets-volume

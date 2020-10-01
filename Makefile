@@ -1,7 +1,7 @@
 JAR_FILE ?= build/libs/*.jar
 TAG ?= v1.0.0
 IMAGE ?= poc-configmap-secrets
-REGISTRY ?= cainafs7/poc-configmap-secrets
+REGISTRY ?= localhost:5000/poc-configmap-secrets
 
 build-install:
 	./gradlew build

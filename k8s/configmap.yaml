@@ -4,4 +4,5 @@ metadata:
   name: poc-configmap-secrets
   namespace: test
 data:
-  hello.world: Hello, I am using ConfigMap!
+  application.properties: |
+    hello.world=Hello, I am using ConfigMap!
