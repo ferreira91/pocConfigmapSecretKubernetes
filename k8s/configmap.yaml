@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: poc-configmap-secrets
+data:
+  application.properties: |-
+    bean.value1=value1#
+    bean.value2=value2#

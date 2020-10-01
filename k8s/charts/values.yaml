@@ -1,0 +1,4 @@
+image:
+  name: cainafs7/poc-configmap-secrets
+  #name: poc-configmap-secrets
+  tag: v1.0.0
