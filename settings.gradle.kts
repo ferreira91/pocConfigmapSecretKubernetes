@@ -1,1 +1,1 @@
-rootProject.name = "PocConfigMapSecrets"
+rootProject.name = "PocConfigMapSecret"

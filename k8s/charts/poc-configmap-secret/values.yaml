@@ -1,0 +1,7 @@
+image:
+  name: localhost:5000/poc-configmap-secret
+  tag: v1.0.0
+volume:
+  name: poc-volume
+configmap:
+  name: poc-configmap

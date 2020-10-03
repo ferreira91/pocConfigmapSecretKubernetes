@@ -4,6 +4,8 @@ metadata:
   name: {{ .Chart.Name }}
   labels:
     app: {{ .Chart.Name }}
+  annotations:
+    checksum/config: {{ include (print $.Template.BasePath "/configmap.yaml") . | sha256sum }}
 spec:
   replicas: 1
   selector:
@@ -24,4 +26,4 @@ spec:
       volumes:
        - name: {{ .Values.volume.name }}
          configMap:
-           name: poc-configmap-secrets
+           name: {{ .Values.configmap.name }}
