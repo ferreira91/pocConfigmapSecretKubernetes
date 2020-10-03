@@ -2,11 +2,14 @@ JAR_FILE ?= build/libs/*.jar
 TAG ?= v1.0.0
 IMAGE ?= poc-configmap-secrets
 REGISTRY ?= localhost:5000/poc-configmap-secrets
+NAMESPACE ?= test
 
-build-install:
+### Gradle ###
+gradle-build:
 	./gradlew build
 
-generate-image: build-install
+### Docker ###
+docker-build: gradle-build
 	docker build --build-arg JAR_FILE=$(JAR_FILE) -t $(IMAGE):$(TAG) .
 
 docker-tag:
@@ -17,3 +20,16 @@ docker-push: docker-tag
 
 docker-login:
 	docker login --password=$(DOCKER_PASSWORD) --username=$(DOCKER_USERNAME)
+
+### Kubernetes ###
+create-namespace:
+	kubectl apply -f k8s/namespace.yaml
+
+create-deployment:
+	helm -n $(NAMESPACE) install $(IMAGE) k8s/charts/ --values k8s/charts/values.yaml
+
+upgrade-deployment:
+	helm -n $(NAMESPACE) upgrade $(IMAGE) k8s/charts/ --values k8s/charts/values.yaml
+
+create-configmap:
+	kubectl apply -f k8s/configmap.yaml
