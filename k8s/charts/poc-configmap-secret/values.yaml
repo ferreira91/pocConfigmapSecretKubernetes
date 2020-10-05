@@ -1,7 +1,16 @@
+namespace:
+  name: poc-configmap-secret
 image:
   name: localhost:5000/poc-configmap-secret
   tag: v1.0.0
 volume:
-  name: poc-volume
+  configmap:
+    name: poc-configmap-volume
+    path: /etc/config/configmap
+  secret:
+    name: poc-secret-volume
+    path: /etc/config/secret
 configmap:
   name: poc-configmap
+secret:
+  name: poc-secret

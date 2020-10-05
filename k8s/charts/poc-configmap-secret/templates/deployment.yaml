@@ -13,6 +13,7 @@ spec:
     metadata:
       annotations:
         checksum/config: {{ include (print $.Template.BasePath "/configmap.yaml") . | sha256sum }}
+        checksum/secret: {{ include (print $.Template.BasePath "/secret.yaml") . | sha256sum }}
       labels:
         app: {{ .Chart.Name }}
     spec:
@@ -21,9 +22,16 @@ spec:
           name: {{ .Chart.Name }}
           imagePullPolicy: Always
           volumeMounts:
-            - name: {{ .Values.volume.name }}
-              mountPath: /etc/config
+            - name: {{ .Values.volume.configmap.name }}
+              mountPath: {{ .Values.volume.configmap.path }}
+            - name: {{ .Values.volume.secret.name }}
+              mountPath: {{ .Values.volume.secret.path }}
+              readOnly: true
       volumes:
-       - name: {{ .Values.volume.name }}
+       - name: {{ .Values.volume.configmap.name }}
          configMap:
            name: {{ .Values.configmap.name }}
+       - name: {{ .Values.volume.secret.name }}
+         secret:
+           secretName: {{ .Values.secret.name }}
+
