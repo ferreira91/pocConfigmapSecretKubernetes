@@ -1,0 +1,127 @@
+# Logfile created on 2020-10-05 17:39:22 +0000 by logger.rb/66358
+2020-10-05T17:39:22.451Z: ActiveRecord connection established
+2020-10-05T17:39:22.871Z: Checking state of dynamic postgres partitions
+2020-10-05T17:39:33.842Z: Checking state of dynamic postgres partitions
+2020-10-05T17:39:33.861Z: {:method=>"with_lock_retries", :class=>"Gitlab::Database::Partitioning::PartitionCreator", :message=>"Lock timeout is set", :current_iteration=>1, :lock_timeout_in_ms=>100}
+2020-10-05T17:39:33.866Z: Created partition audit_events_part_5fc467ac26_000000 for table audit_events_part_5fc467ac26
+2020-10-05T17:39:33.870Z: Created partition audit_events_part_5fc467ac26_202010 for table audit_events_part_5fc467ac26
+2020-10-05T17:39:33.873Z: Created partition audit_events_part_5fc467ac26_202011 for table audit_events_part_5fc467ac26
+2020-10-05T17:39:33.876Z: Created partition audit_events_part_5fc467ac26_202012 for table audit_events_part_5fc467ac26
+2020-10-05T17:39:33.880Z: Created partition audit_events_part_5fc467ac26_202101 for table audit_events_part_5fc467ac26
+2020-10-05T17:39:33.883Z: Created partition audit_events_part_5fc467ac26_202102 for table audit_events_part_5fc467ac26
+2020-10-05T17:39:33.886Z: Created partition audit_events_part_5fc467ac26_202103 for table audit_events_part_5fc467ac26
+2020-10-05T17:39:33.890Z: Created partition audit_events_part_5fc467ac26_202104 for table audit_events_part_5fc467ac26
+2020-10-05T17:39:33.890Z: {:method=>"with_lock_retries", :class=>"Gitlab::Database::Partitioning::PartitionCreator", :message=>"Migration finished", :current_iteration=>1, :lock_timeout_in_ms=>100}
+2020-10-05T17:39:34.558Z: User "Administrator" (admin@example.com) was created
+2020-10-05T17:39:34.668Z: Group "GitLab Instance" was created
+2020-10-05T17:39:35.477Z: GitLab Instance created a new project "GitLab Instance / Monitoring"
+2020-10-05T17:39:36.066Z: Cannot obtain an exclusive lease. There must be another instance already in execution.
+2020-10-05T17:39:45.199Z: ActiveRecord connection established
+2020-10-05T17:39:45.817Z: Checking state of dynamic postgres partitions
+2020-10-05T17:39:58.427Z: Checking state of dynamic postgres partitions
+2020-10-05T17:40:05.779Z: Checking state of dynamic postgres partitions
+2020-10-05T17:40:16.724Z: ActiveRecord connection disconnected
+2020-10-05T17:40:16.949Z: ActiveRecord connection established
+2020-10-05T17:40:16.974Z: ActiveRecord connection established
+2020-10-05T17:40:16.996Z: ActiveRecord connection established
+2020-10-05T17:40:16.999Z: ActiveRecord connection established
+2020-10-05T17:40:17.019Z: ActiveRecord connection established
+2020-10-05T17:40:17.069Z: ActiveRecord connection established
+2020-10-05T17:40:17.108Z: ActiveRecord connection established
+2020-10-05T17:40:17.108Z: ActiveRecord connection established
+2020-10-05T17:40:50.507Z: ActiveRecord connection established
+2020-10-05T17:40:51.128Z: Checking state of dynamic postgres partitions
+2020-10-05T17:41:14.970Z: Successful Login: username=root ip=172.18.0.1 method=standard admin=true
+2020-10-05T17:41:23.603Z: ActiveRecord connection established
+2020-10-05T17:41:24.382Z: Checking state of dynamic postgres partitions
+2020-10-05T17:41:42.886Z: GitLab Instance created a new project "GitLab Instance / Poc Configmap Secrets"
+2020-10-05T18:00:26.139Z: StuckCiJobsWorker: Cleaning stuck builds
+2020-10-05T18:09:52.017Z: Checking state of dynamic postgres partitions
+2020-10-05T18:09:57.980Z: Checking state of dynamic postgres partitions
+2020-10-05T18:10:31.709Z: ActiveRecord connection disconnected
+2020-10-05T18:10:32.460Z: ActiveRecord connection established
+2020-10-05T18:10:32.474Z: ActiveRecord connection established
+2020-10-05T18:10:32.531Z: ActiveRecord connection established
+2020-10-05T18:10:32.546Z: ActiveRecord connection established
+2020-10-05T18:10:32.565Z: ActiveRecord connection established
+2020-10-05T18:10:32.599Z: ActiveRecord connection established
+2020-10-05T18:10:32.774Z: ActiveRecord connection established
+2020-10-05T18:10:32.777Z: ActiveRecord connection established
+2020-10-05T18:12:07.071Z: ActiveRecord connection established
+2020-10-05T18:12:07.220Z: Checking state of dynamic postgres partitions
+2020-10-05T18:12:08.795Z: Checking state of dynamic postgres partitions
+2020-10-05T18:12:15.130Z: Checking state of dynamic postgres partitions
+2020-10-05T18:13:12.628Z: ActiveRecord connection disconnected
+2020-10-05T18:13:13.218Z: ActiveRecord connection established
+2020-10-05T18:13:13.278Z: ActiveRecord connection established
+2020-10-05T18:13:13.307Z: ActiveRecord connection established
+2020-10-05T18:13:13.321Z: ActiveRecord connection established
+2020-10-05T18:13:13.337Z: ActiveRecord connection established
+2020-10-05T18:13:13.415Z: ActiveRecord connection established
+2020-10-05T18:13:13.447Z: ActiveRecord connection established
+2020-10-05T18:13:13.459Z: ActiveRecord connection established
+2020-10-05T18:19:53.857Z: Updating statistics for project 2
+2020-10-05T18:19:54.445Z: Updating statistics for project 2
+2020-10-05T18:19:55.334Z: {:message=>"Pipeline authorized", :project_id=>2, :user_id=>1}
+2020-10-05T18:19:55.964Z: Cannot obtain an exclusive lease for Ci::PipelineProcessing::AtomicProcessingService. There must be another instance already in execution.
+2020-10-05T18:21:22.783Z: Checking state of dynamic postgres partitions
+2020-10-05T18:22:21.135Z: Cannot obtain an exclusive lease for Namespace::AggregationSchedule. There must be another instance already in execution.
+2020-10-05T18:31:32.602Z: {:message=>"Pipeline authorized", :project_id=>2, :user_id=>1}
+2020-10-05T18:31:32.879Z: Cannot obtain an exclusive lease for Ci::PipelineProcessing::AtomicProcessingService. There must be another instance already in execution.
+2020-10-05T18:34:55.089Z: Updating statistics for project 2
+2020-10-05T18:34:55.090Z: Updating statistics for project 2
+2020-10-05T19:00:15.850Z: StuckCiJobsWorker: Cleaning stuck builds
+2020-10-05T20:00:13.578Z: StuckCiJobsWorker: Cleaning stuck builds
+2020-10-05T21:00:31.176Z: StuckCiJobsWorker: Cleaning stuck builds
+2020-10-05T21:11:45.411Z: Checking state of dynamic postgres partitions
+2020-10-05T21:11:52.013Z: Checking state of dynamic postgres partitions
+2020-10-05T21:12:03.679Z: ActiveRecord connection disconnected
+2020-10-05T21:12:03.889Z: ActiveRecord connection established
+2020-10-05T21:12:03.908Z: ActiveRecord connection established
+2020-10-05T21:12:03.944Z: ActiveRecord connection established
+2020-10-05T21:12:03.971Z: ActiveRecord connection established
+2020-10-05T21:12:03.976Z: ActiveRecord connection established
+2020-10-05T21:12:03.981Z: ActiveRecord connection established
+2020-10-05T21:12:03.992Z: ActiveRecord connection established
+2020-10-05T21:12:04.019Z: ActiveRecord connection established
+2020-10-05T21:12:47.522Z: ActiveRecord connection established
+2020-10-05T21:12:48.483Z: Checking state of dynamic postgres partitions
+2020-10-05T21:13:54.937Z: Successful Login: username=root ip=172.18.0.1 method=standard admin=true
+2020-10-05T21:14:40.819Z: Checking state of dynamic postgres partitions
+2020-10-05T21:14:41.032Z: ActiveRecord connection established
+2020-10-05T21:14:41.786Z: Checking state of dynamic postgres partitions
+2020-10-05T21:14:49.151Z: Checking state of dynamic postgres partitions
+2020-10-05T21:15:08.116Z: ActiveRecord connection disconnected
+2020-10-05T21:15:08.337Z: ActiveRecord connection established
+2020-10-05T21:15:08.353Z: ActiveRecord connection established
+2020-10-05T21:15:08.363Z: ActiveRecord connection established
+2020-10-05T21:15:08.388Z: ActiveRecord connection established
+2020-10-05T21:15:08.412Z: ActiveRecord connection established
+2020-10-05T21:15:08.414Z: ActiveRecord connection established
+2020-10-05T21:15:08.426Z: ActiveRecord connection established
+2020-10-05T21:15:08.436Z: ActiveRecord connection established
+2020-10-05T21:22:04.100Z: User 1 scheduled destruction of project gitlab-instance-2acda735/poc-configmap-secrets with job ID 48c51ecdaa11677b6cefee34
+2020-10-05T21:22:04.189Z: Attempting to destroy gitlab-instance-2acda735/poc-configmap-secrets (2)
+2020-10-05T21:22:04.251Z: Repository "@hashed/d4/73/d4735e3a265e16eee03f59718b9b5d03019c07d8b6c51f90da3a666eec13ab35" moved to "@hashed/d4/73/d4735e3a265e16eee03f59718b9b5d03019c07d8b6c51f90da3a666eec13ab35+2+deleted" for repository "gitlab-instance-2acda735/poc-configmap-secrets"
+2020-10-05T21:22:04.252Z: Repository "gitlab-instance-2acda735/poc-configmap-secrets" was removed
+2020-10-05T21:22:04.312Z: Repository "@hashed/d4/73/d4735e3a265e16eee03f59718b9b5d03019c07d8b6c51f90da3a666eec13ab35.wiki" moved to "@hashed/d4/73/d4735e3a265e16eee03f59718b9b5d03019c07d8b6c51f90da3a666eec13ab35.wiki+2+deleted" for repository "gitlab-instance-2acda735/poc-configmap-secrets.wiki"
+2020-10-05T21:22:04.313Z: Repository "gitlab-instance-2acda735/poc-configmap-secrets.wiki" was removed
+2020-10-05T21:22:04.729Z: Project "gitlab-instance-2acda735/poc-configmap-secrets" was deleted
+2020-10-05T21:22:12.546Z: GitLab Instance created a new project "GitLab Instance / poc-configmap-secrets"
+2020-10-05T21:22:50.630Z: Updating statistics for project 3
+2020-10-05T21:22:50.698Z: Cannot obtain an exclusive lease for Namespace::AggregationSchedule. There must be another instance already in execution.
+2020-10-05T21:22:50.706Z: Updating statistics for project 3
+2020-10-05T21:22:50.939Z: {:message=>"Pipeline authorized", :project_id=>3, :user_id=>1}
+2020-10-05T21:22:51.070Z: Cannot obtain an exclusive lease for Ci::PipelineProcessing::AtomicProcessingService. There must be another instance already in execution.
+2020-10-05T21:28:30.828Z: {:message=>"Pipeline authorized", :project_id=>3, :user_id=>1}
+2020-10-05T21:28:30.915Z: Cannot obtain an exclusive lease for Ci::PipelineProcessing::AtomicProcessingService. There must be another instance already in execution.
+2020-10-05T21:30:00.587Z: {:message=>"Pipeline authorized", :project_id=>3, :user_id=>1}
+2020-10-05T21:30:00.678Z: Cannot obtain an exclusive lease for Ci::PipelineProcessing::AtomicProcessingService. There must be another instance already in execution.
+2020-10-05T21:32:18.449Z: {:message=>"Pipeline authorized", :project_id=>3, :user_id=>1}
+2020-10-05T21:32:18.548Z: Cannot obtain an exclusive lease for Ci::PipelineProcessing::AtomicProcessingService. There must be another instance already in execution.
+2020-10-05T21:37:54.739Z: Updating statistics for project 3
+2020-10-05T21:37:54.744Z: Updating statistics for project 3
+2020-10-05T21:41:52.680Z: Updating statistics for project 3
+2020-10-05T21:41:52.783Z: {:message=>"Pipeline authorized", :project_id=>3, :user_id=>1}
+2020-10-05T21:43:21.478Z: {:message=>"Pipeline authorized", :project_id=>3, :user_id=>1}
+2020-10-05T21:43:21.569Z: Cannot obtain an exclusive lease for Ci::PipelineProcessing::AtomicProcessingService. There must be another instance already in execution.

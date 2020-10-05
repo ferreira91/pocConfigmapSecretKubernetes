@@ -1,0 +1,63 @@
+2020-10-05_17:39:07.98525 LOG:  listening on Unix socket "/var/opt/gitlab/postgresql/.s.PGSQL.5432"
+2020-10-05_17:39:07.99546 LOG:  database system was shut down at 2020-10-05 17:39:04 GMT
+2020-10-05_17:39:07.99825 LOG:  database system is ready to accept connections
+2020-10-05_18:09:23.63446 received TERM from runit, sending INT instead to force quit connections
+2020-10-05_18:09:23.63863 LOG:  received fast shutdown request
+2020-10-05_18:09:23.63985 LOG:  aborting any active transactions
+2020-10-05_18:09:23.64893 FATAL:  terminating connection due to administrator command
+2020-10-05_18:09:23.64895 FATAL:  terminating connection due to administrator command
+2020-10-05_18:09:23.64896 FATAL:  terminating connection due to administrator command
+2020-10-05_18:09:23.64896 FATAL:  terminating connection due to administrator command
+2020-10-05_18:09:23.64897 FATAL:  terminating connection due to administrator command
+2020-10-05_18:09:23.64897 FATAL:  terminating connection due to administrator command
+2020-10-05_18:09:23.64897 FATAL:  terminating connection due to administrator command
+2020-10-05_18:09:23.64898 FATAL:  terminating connection due to administrator command
+2020-10-05_18:09:23.64898 FATAL:  terminating connection due to administrator command
+2020-10-05_18:09:23.64898 FATAL:  terminating connection due to administrator command
+2020-10-05_18:09:23.64899 FATAL:  terminating connection due to administrator command
+2020-10-05_18:09:23.64899 FATAL:  terminating connection due to administrator command
+2020-10-05_18:09:23.64900 FATAL:  terminating connection due to administrator command
+2020-10-05_18:09:23.64900 FATAL:  terminating connection due to administrator command
+2020-10-05_18:09:23.64901 FATAL:  terminating connection due to administrator command
+2020-10-05_18:09:23.64901 FATAL:  terminating connection due to administrator command
+2020-10-05_18:09:23.64901 FATAL:  terminating connection due to administrator command
+2020-10-05_18:09:23.64902 FATAL:  terminating connection due to administrator command
+2020-10-05_18:09:23.64903 FATAL:  terminating connection due to administrator command
+2020-10-05_18:09:23.66626 LOG:  background worker "logical replication launcher" (PID 586) exited with exit code 1
+2020-10-05_18:09:23.66637 FATAL:  terminating connection due to administrator command
+2020-10-05_18:09:23.66701 LOG:  shutting down
+2020-10-05_18:09:23.68212 LOG:  database system is shut down
+2020-10-05_18:09:23.72290 LOG:  listening on Unix socket "/var/opt/gitlab/postgresql/.s.PGSQL.5432"
+2020-10-05_18:09:23.73907 LOG:  database system was shut down at 2020-10-05 18:09:23 GMT
+2020-10-05_18:09:23.74339 LOG:  database system is ready to accept connections
+2020-10-05_21:05:19.65431 received TERM from runit, sending INT instead to force quit connections
+2020-10-05_21:05:19.65659 LOG:  received fast shutdown request
+2020-10-05_21:05:19.65804 LOG:  aborting any active transactions
+2020-10-05_21:05:19.65812 FATAL:  terminating connection due to administrator command
+2020-10-05_21:05:19.65814 FATAL:  terminating connection due to administrator command
+2020-10-05_21:05:19.65815 FATAL:  terminating connection due to administrator command
+2020-10-05_21:05:19.65816 FATAL:  terminating connection due to administrator command
+2020-10-05_21:05:19.65819 FATAL:  terminating connection due to administrator command
+2020-10-05_21:05:19.66549 FATAL:  terminating connection due to administrator command
+2020-10-05_21:05:19.66556 FATAL:  terminating connection due to administrator command
+2020-10-05_21:05:19.66557 FATAL:  terminating connection due to administrator command
+2020-10-05_21:05:19.66559 FATAL:  terminating connection due to administrator command
+2020-10-05_21:05:19.66560 FATAL:  terminating connection due to administrator command
+2020-10-05_21:05:19.66561 FATAL:  terminating connection due to administrator command
+2020-10-05_21:05:19.66562 FATAL:  terminating connection due to administrator command
+2020-10-05_21:05:19.66563 FATAL:  terminating connection due to administrator command
+2020-10-05_21:05:19.66564 FATAL:  terminating connection due to administrator command
+2020-10-05_21:05:19.66569 FATAL:  terminating connection due to administrator command
+2020-10-05_21:05:19.66683 FATAL:  terminating connection due to administrator command
+2020-10-05_21:05:19.66687 FATAL:  terminating connection due to administrator command
+2020-10-05_21:05:19.66691 FATAL:  terminating connection due to administrator command
+2020-10-05_21:05:19.66713 FATAL:  terminating connection due to administrator command
+2020-10-05_21:05:19.67420 FATAL:  terminating connection due to administrator command
+2020-10-05_21:05:19.67427 FATAL:  terminating connection due to administrator command
+2020-10-05_21:05:19.67428 FATAL:  terminating connection due to administrator command
+2020-10-05_21:05:19.67429 FATAL:  terminating connection due to administrator command
+2020-10-05_21:05:19.67430 FATAL:  terminating connection due to administrator command
+2020-10-05_21:05:19.67432 FATAL:  terminating connection due to administrator command
+2020-10-05_21:05:19.67500 LOG:  background worker "logical replication launcher" (PID 5888) exited with exit code 1
+2020-10-05_21:05:19.67956 LOG:  shutting down
+2020-10-05_21:05:19.69571 LOG:  database system is shut down

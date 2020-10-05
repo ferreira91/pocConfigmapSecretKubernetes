@@ -1,0 +1,31 @@
+version: '3.5'
+services:
+    gitlab:
+        image: gitlab/gitlab-ce:latest
+        restart: always
+        ports:
+            - "8000:80"
+            - "8822:22"
+        volumes:
+            - ./gitlab/config/gitlab:/etc/gitlab
+            - ./gitlab/data/gitlab:/var/opt/gitlab
+            - ./gitlab/logs:/var/log/gitlab
+        networks:
+            - kind
+
+            
+    gitlab-runner:
+        image: gitlab/gitlab-runner:latest
+        restart: always
+        depends_on:
+            - gitlab
+        volumes:
+            - ./gitlab/config/gitlab-runner:/etc/gitlab-runner
+            - /var/run/docker.sock:/var/run/docker.sock
+        networks:
+            - kind       
+
+
+networks:
+  kind:
+    external: true

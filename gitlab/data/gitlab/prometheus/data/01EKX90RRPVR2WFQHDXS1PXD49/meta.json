@@ -1,0 +1,17 @@
+{
+	"ulid": "01EKX90RRPVR2WFQHDXS1PXD49",
+	"minTime": 1601920800000,
+	"maxTime": 1601928000000,
+	"stats": {
+		"numSamples": 13431255,
+		"numSeries": 30292,
+		"numChunks": 111515
+	},
+	"compaction": {
+		"level": 1,
+		"sources": [
+			"01EKX90RRPVR2WFQHDXS1PXD49"
+		]
+	},
+	"version": 1
+}

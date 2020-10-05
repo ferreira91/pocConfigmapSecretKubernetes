@@ -1,0 +1,36 @@
+2020-10-05_17:40:14.70028 == Sinatra (v2.0.8.1) has taken the stage on 9168 for development with backup from Puma
+2020-10-05_17:40:14.70042 Puma starting in single mode...
+2020-10-05_17:40:14.70042 * Version 4.3.5.gitlab.3 (ruby 2.6.6-p146), codename: Mysterious Traveller
+2020-10-05_17:40:14.70043 * Min threads: 0, max threads: 16
+2020-10-05_17:40:14.70043 * Environment: development
+2020-10-05_17:40:14.70066 * Listening on tcp://127.0.0.1:9168
+2020-10-05_17:40:14.70067 * Listening on tcp://[::1]:9168
+2020-10-05_17:40:14.70067 Use Ctrl-C to stop
+2020-10-05_17:41:27.46387 - Gracefully stopping, waiting for requests to finish
+2020-10-05_17:41:27.46424 === puma shutdown: 2020-10-05 17:41:27 +0000 ===
+2020-10-05_17:41:27.46424 - Goodbye!
+2020-10-05_17:41:27.46429 == Sinatra has ended his set (crowd applauds)
+2020-10-05_17:41:27.78247 == Sinatra (v2.0.8.1) has taken the stage on 9168 for development with backup from Puma
+2020-10-05_17:41:27.78265 Puma starting in single mode...
+2020-10-05_17:41:27.78266 * Version 4.3.5.gitlab.3 (ruby 2.6.6-p146), codename: Mysterious Traveller
+2020-10-05_17:41:27.78266 * Min threads: 0, max threads: 16
+2020-10-05_17:41:27.78267 * Environment: development
+2020-10-05_17:41:27.78288 * Listening on tcp://127.0.0.1:9168
+2020-10-05_17:41:27.78288 * Listening on tcp://[::1]:9168
+2020-10-05_17:41:27.78292 Use Ctrl-C to stop
+2020-10-05_18:09:21.50584 - Gracefully stopping, waiting for requests to finish
+2020-10-05_18:09:21.51469 === puma shutdown: 2020-10-05 18:09:21 +0000 ===
+2020-10-05_18:09:21.51480 - Goodbye!
+2020-10-05_18:09:21.51482 == Sinatra has ended his set (crowd applauds)
+2020-10-05_18:09:22.38284 == Sinatra (v2.0.8.1) has taken the stage on 9168 for development with backup from Puma
+2020-10-05_18:09:22.38340 Puma starting in single mode...
+2020-10-05_18:09:22.38348 * Version 4.3.5.gitlab.3 (ruby 2.6.6-p146), codename: Mysterious Traveller
+2020-10-05_18:09:22.38353 * Min threads: 0, max threads: 16
+2020-10-05_18:09:22.38358 * Environment: development
+2020-10-05_18:09:22.38409 * Listening on tcp://127.0.0.1:9168
+2020-10-05_18:09:22.38415 * Listening on tcp://[::1]:9168
+2020-10-05_18:09:22.38435 Use Ctrl-C to stop
+2020-10-05_21:05:17.10705 - Gracefully stopping, waiting for requests to finish
+2020-10-05_21:05:17.10817 === puma shutdown: 2020-10-05 21:05:17 +0000 ===
+2020-10-05_21:05:17.10820 - Goodbye!
+2020-10-05_21:05:17.10838 == Sinatra has ended his set (crowd applauds)

@@ -1,0 +1,3 @@
+# Logfile created on 2020-10-05 17:41:14 +0000 by logger.rb/66358
+{"severity":"INFO","time":"2020-10-05T17:41:14.971Z","correlation_id":"umeBail2zN","author_id":1,"author_name":"Administrator","entity_id":1,"entity_type":"User","with":"standard","target_id":1,"target_type":"User","target_details":"Administrator"}
+{"severity":"INFO","time":"2020-10-05T21:13:54.937Z","correlation_id":"uaqaoYeHZ95","author_id":1,"author_name":"Administrator","entity_id":1,"entity_type":"User","with":"standard","target_id":1,"target_type":"User","target_details":"Administrator"}
