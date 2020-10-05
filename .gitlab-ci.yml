@@ -23,4 +23,4 @@ test:
     - kubectl config get-contexts
     - kubectl config use-context kind-kind
     - kubectl get pods --all-namespaces
-    - helm -n test upgrade poc-configmap-secrets ./ --values values.yaml
+    - helm -n poc-configmap-secret upgrade poc-configmap-secret k8s/charts/poc-configmap-secret/ --values k8s/charts/poc-configmap-secret/values.yaml

@@ -1,1 +1,0 @@
-/opt/gitlab/embedded/postgresql/11/bin/postgres "-D" "/var/opt/gitlab/postgresql/data"

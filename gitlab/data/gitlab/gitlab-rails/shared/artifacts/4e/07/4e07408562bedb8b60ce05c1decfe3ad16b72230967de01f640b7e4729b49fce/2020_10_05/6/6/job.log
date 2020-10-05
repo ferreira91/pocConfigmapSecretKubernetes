@@ -1,16 +1,0 @@
-[0KRunning with gitlab-runner 13.4.1 (e95f89a0)
-[0;m[0K  on ubuntu-runner Tr2hk4ms
-[0;msection_start:1601933073:prepare_executor[0K[0K[36;1mPreparing the "docker" executor[0;m
-[0;m[0KUsing Docker executor with image ubuntu:latest ...
-[0;m[0KPulling docker image ubuntu:latest ...
-[0;m[0KUsing docker image sha256:9140108b62dc87d9b278bb0d4fd6a3e44c2959646eb966b86531306faa81b09b for ubuntu:latest with digest ubuntu@sha256:bc2f7250f69267c9c6b66d7b6a81a54d3878bb85f1ebb5f951c896d13e6ba537 ...
-[0;msection_end:1601933080:prepare_executor[0Ksection_start:1601933080:prepare_script[0K[0K[36;1mPreparing environment[0;m
-[0;mRunning on runner-tr2hk4ms-project-3-concurrent-0 via 76d74049ab76...
-section_end:1601933081:prepare_script[0Ksection_start:1601933081:get_sources[0K[0K[36;1mGetting source from Git repository[0;m
-[0;m[32;1mFetching changes with git depth set to 50...[0;m
-Initialized empty Git repository in /builds/gitlab-instance-2acda735/poc-configmap-secrets/.git/
-[32;1mCreated fresh repository.[0;m
-fatal: unable to access 'http://172.18.0.4/gitlab-instance-2acda735/poc-configmap-secrets.git/': Failed to connect to 172.18.0.4 port 80: Operation timed out
-section_end:1601933211:get_sources[0Ksection_start:1601933211:cleanup_file_variables[0K[0K[36;1mCleaning up file based variables[0;m
-[0;msection_end:1601933212:cleanup_file_variables[0K[31;1mERROR: Job failed: exit code 1
-[0;m

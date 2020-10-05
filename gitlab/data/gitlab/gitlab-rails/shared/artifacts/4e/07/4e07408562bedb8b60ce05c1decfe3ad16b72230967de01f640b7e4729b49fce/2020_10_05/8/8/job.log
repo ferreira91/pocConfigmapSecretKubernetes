@@ -1,11 +1,0 @@
-[0KRunning with gitlab-runner 13.4.1 (e95f89a0)
-[0;m[0K  on ubuntu-runner Tr2hk4ms
-[0;msection_start:1601933313:prepare_executor[0K[0K[36;1mPreparing the "docker" executor[0;m
-[0;m[0KUsing Docker executor with image ubuntu:latest ...
-[0;m[0KPulling docker image ubuntu:latest ...
-[0;m[0KUsing docker image sha256:9140108b62dc87d9b278bb0d4fd6a3e44c2959646eb966b86531306faa81b09b for ubuntu:latest with digest ubuntu@sha256:bc2f7250f69267c9c6b66d7b6a81a54d3878bb85f1ebb5f951c896d13e6ba537 ...
-[0;msection_end:1601933318:prepare_executor[0Ksection_start:1601933318:prepare_script[0K[0K[36;1mPreparing environment[0;m
-[0;mRunning on runner-tr2hk4ms-project-3-concurrent-0 via 76d74049ab76...
-section_end:1601933318:prepare_script[0Ksection_start:1601933318:get_sources[0K[0K[36;1mGetting source from Git repository[0;m
-[0;m[32;1mFetching changes with git depth set to 50...[0;m
-Reinitialized existing Git repository in /builds/gitlab-instance-2acda735/poc-configmap-secrets/.git/
