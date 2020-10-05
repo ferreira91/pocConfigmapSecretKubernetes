@@ -7,6 +7,3 @@ Run `make docker-push` to push image in kind registry (local)
 Run `make create-namespace` to create namespace `test`  
 Run `make create-deployment` to create deployment of pocConfigMapSecret in cluster  
 Run `make upgrade-deployment` to upgrade deployment of pocConfigMapSecret in cluster  
-Run `make create-configmap` to create `configmap` in cluster  
-Run `make create-secret` to create `secret` in cluster  
-Run `make ceate-reloader` to create `realoder` that update deployment when have changes in configmap and secret  
