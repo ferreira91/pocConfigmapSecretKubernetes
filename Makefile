@@ -18,9 +18,6 @@ docker-tag:
 docker-push: docker-tag
 	docker push $(REGISTRY):$(TAG)
 
-docker-login:
-	docker login --password=$(DOCKER_PASSWORD) --username=$(DOCKER_USERNAME)
-
 ### Kubernetes ###
 create-namespace:
 	kubectl apply -f k8s/namespace.yaml
