@@ -3,6 +3,10 @@ namespace:
 image:
   name: localhost:5000/poc-configmap-secret
   tag: v1.0.0
+service:
+  port: 80
+  targetPort: 8080
+  nodePort: 30000
 volume:
   configmap:
     name: poc-configmap-volume
