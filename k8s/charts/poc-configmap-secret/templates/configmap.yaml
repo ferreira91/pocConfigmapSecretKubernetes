@@ -4,5 +4,5 @@ metadata:
   name: {{ .Values.configmap.name }}
   namespace: {{ .Values.namespace.name }}
 data:
-  application.properties: |
-    poc.configmap=Hello, I am using ConfigMap!
+  application.yaml: |
+    poc.configmap: Hello, I am using ConfigMap!
