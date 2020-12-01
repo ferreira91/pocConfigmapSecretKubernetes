@@ -1,10 +1,11 @@
 import org.jetbrains.kotlin.gradle.tasks.KotlinCompile
 
 plugins {
-	id("org.springframework.boot") version "2.3.4.RELEASE"
+	id("org.springframework.boot") version "2.4.1-SNAPSHOT"
 	id("io.spring.dependency-management") version "1.0.10.RELEASE"
-	kotlin("jvm") version "1.3.72"
-	kotlin("plugin.spring") version "1.3.72"
+	id("com.google.cloud.tools.jib") version "2.6.0"
+	kotlin("jvm") version "1.4.10"
+	kotlin("plugin.spring") version "1.4.10"
 }
 
 group = "com.example"
@@ -13,6 +14,15 @@ java.sourceCompatibility = JavaVersion.VERSION_11
 
 repositories {
 	mavenCentral()
+	maven { url = uri("https://repo.spring.io/milestone") }
+	maven { url = uri("https://repo.spring.io/snapshot") }
+}
+
+jib {
+	container {
+		volumes = listOf("/config")
+		jvmFlags = listOf("-Dspring.config.location=optional:file:/config/configmap/application.yaml,optional:file:/config/secret/application.yaml")
+	}
 }
 
 dependencies {

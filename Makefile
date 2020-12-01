@@ -1,29 +1,20 @@
-JAR_FILE ?= build/libs/*.jar
-TAG ?= v1.0.0
+DEPLOYMENT_NAME ?= poc-configmap-secret
 IMAGE ?= poc-configmap-secret
-REGISTRY ?= localhost:5000/poc-configmap-secret
 NAMESPACE ?= poc-configmap-secret
+REGISTRY ?= localhost:5000
+TAG ?= latest
 
-### Gradle ###
-gradle-build:
-	./gradlew build
-
-### Docker ###
-docker-build: gradle-build
-	docker build --build-arg JAR_FILE=$(JAR_FILE) -t $(IMAGE):$(TAG) .
-
-docker-tag:
-	docker tag $$(docker images --filter=reference=$(IMAGE) --format "{{.ID}}") $(REGISTRY):$(TAG)
-
-docker-push: docker-tag
-	docker push $(REGISTRY):$(TAG)
+### jib ###
+jib-local:
+	gradle jib -Djib.to.image=$(REGISTRY)/$(IMAGE):$(TAG) -Djib.allowInsecureRegistries=true
 
 ### Kubernetes ###
 create-namespace:
 	kubectl apply -f k8s/namespace.yaml
 
 create-deployment:
-	helm -n $(NAMESPACE) install $(IMAGE) k8s/charts/poc-configmap-secret/ --values k8s/charts/poc-configmap-secret/values.yaml
+	helm -n $(NAMESPACE) install $(DEPLOYMENT_NAME) k8s/charts/poc-configmap-secret/ --values k8s/charts/poc-configmap-secret/values.yaml
 
 upgrade-deployment:
-	helm -n $(NAMESPACE) upgrade $(IMAGE) k8s/charts/poc-configmap-secret/ --values k8s/charts/poc-configmap-secret/values.yaml
+	helm -n $(NAMESPACE) upgrade $(DEPLOYMENT_NAME) k8s/charts/poc-configmap-secret/ --values k8s/charts/poc-configmap-secret/values.yaml
+
